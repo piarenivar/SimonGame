@@ -1,3 +1,7 @@
+$(document).click(function() {
+  $(".instructions").fadeOut();
+});
+
 var buttonColors = ["red", "blue", "green", "yellow"];
 
 var gamePattern = [];
